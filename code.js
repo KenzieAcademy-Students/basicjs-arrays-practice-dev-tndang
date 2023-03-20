@@ -20,7 +20,8 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 
 function kata1() {
-
+    console.log(sentence[2]);
+    console.log(sentence[sentence.length - 1]);
 }
 kata1();
 
