@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Arrays Activity Exercise 1",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise One\\njumped\\nfence",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Arrays Activity Exercise 2",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Two\\n28",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Arrays Activity Exercise 3",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Three\\n\\[ '.+', '.+', '.+', '.+', '.+' \\]\\n5",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Arrays Activity Exercise 4",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Four\\n\\[ 'James', 'Jean-Luc', 'Benjamin', 'Kathryn', 'Jonathan' \\]\\n\\[ 'James', 'Jean-Luc', '.+', 'Kathryn', 'Jonathan' \\]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Arrays Activity Exercise 5",
+      "setup": "",
+      "run": "node code.js",
+      "input": "",
+      "output": "Exercise Five\\n\\[ 'This', 'will', 'make', 'a', 'combined', 'array.' \\]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
