@@ -53,7 +53,9 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 function kata3() {
-
+    let colors = ["Red", "Green", "Blue", "White", "Black"]
+    console.log(colors);
+    console.log(colors.length);
 }
 kata3();
 
