@@ -91,7 +91,8 @@ let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 
 function kata5() {
-
+    let newArray = firstArray.concat(secondArray);
+    console.log(newArray);
 }
 kata5();
 
