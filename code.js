@@ -20,7 +20,8 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
 
 function kata1() {
-
+    console.log(sentence[2]);
+    console.log(sentence[sentence.length - 1]);
 }
 kata1();
 
@@ -37,7 +38,8 @@ console.log("Exercise Two");
 let numbers = [3, 4, 5, 7, 9];
 
 function kata2() {
-
+    let sum = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
+    console.log(sum);
 }
 kata2();
 
@@ -51,7 +53,9 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 function kata3() {
-
+    let colors = ["Red", "Green", "Blue", "White", "Black"]
+    console.log(colors);
+    console.log(colors.length);
 }
 kata3();
 
@@ -68,7 +72,10 @@ let names = []; // Don't modify this line.
 let index = 2;
 
 function kata4() {
-
+    names.push("James", "Jean-Luc", "Benjamin", "Kathryn", "Jonathan");
+    console.log(names);
+    names[index] = "Bob";
+    console.log(names);
 }
 kata4();
 
@@ -84,7 +91,8 @@ let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 
 function kata5() {
-
+    let newArray = firstArray.concat(secondArray);
+    console.log(newArray);
 }
 kata5();
 
