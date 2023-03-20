@@ -72,7 +72,10 @@ let names = []; // Don't modify this line.
 let index = 2;
 
 function kata4() {
-
+    names.push("James", "Jean-Luc", "Benjamin", "Kathryn", "Jonathan");
+    console.log(names);
+    names[index] = "Bob";
+    console.log(names);
 }
 kata4();
 
